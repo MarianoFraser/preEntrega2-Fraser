@@ -1,0 +1,21 @@
+.contactoPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactoTitulo{
+    display:flex;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    flex-direction: column;
+    h1{
+        font-size: 25px;
+    }
+}
+.contactoForm{
+    width: 400px;
+}
+.mb-3{
+    color: black;
+    }

@@ -1,0 +1,69 @@
+.historiaDatos{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 200px 75px 250px 275px 150px 300px 275px;
+    grid-template-areas:
+    "gridHist-1"
+    "gridHist-2"
+    "gridHist-3"
+    "gridHist-4"
+    "gridHist-5"
+    "gridHist-6"
+    "gridHist-7"
+    "gridHist-8"
+    ;
+    row-gap: 20px;
+    justify-items: center;
+    text-align: center;
+    p{
+        font-size:25px;
+        margin-top: 5px;
+    }
+}
+.gridHist-1{
+    grid-area: gridHist-1;
+}
+.gridHist-2{
+    grid-area: gridHist-2;
+}
+.gridHist-3{
+    grid-area: gridHist-3;
+}
+.gridHist-4{
+    grid-area: gridHist-4;
+}
+.gridHist-5{
+    grid-area: gridHist-5;
+}
+.gridHist-6{
+    grid-area: gridHist-6;
+}
+.gridHist-7{
+    grid-area: gridHist-7;
+}
+.gridHist-8{
+    grid-area: gridHist-8;
+}
+.historiaTitulos{
+    font-size: 45px;
+    margin-top: 25px;
+    text-decoration: underline;
+
+}
+.campeon{
+    width:100%;
+    text-align: center;
+    h4{
+        Font-size: 45px;
+        margin-top:50px;
+        color:black;
+    }
+    img{
+        width: 200px;
+        height: 470px;
+        margin-top:50px;
+    }
+}

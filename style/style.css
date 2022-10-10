@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&family=Roboto:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: darkslateblue;
+}
+
+.encabezado {
+  background-color: darkblue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+header img {
+  width: 100%;
+  height: 200px;
+}
+
+.container-fluid {
+  font-size: 20px;
+}
+
+footer {
+  color: black;
+  bottom: 0;
+  display: block;
+}
+
+.slogan {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.slogan p {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bolder;
+}
+
+.descripcion {
+  text-align: center;
+  color: white;
+}
+.descripcion h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: bolder;
+}
+.descripcion p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.contenido {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas: "indGrid-1" "indGrid-2" "indGrid-3";
+  row-gap: 20px;
+}
+
+.indGrid-1 {
+  grid-area: indGrid-1;
+}
+
+.indGrid-2 {
+  grid-area: indGrid-2;
+}
+
+.indGrid-3 {
+  grid-area: indGrid-3;
+}
+
+.indGrid-4 {
+  grid-area: indGrid-4;
+}
+
+.indexFinal {
+  display: flex;
+  justify-content: center;
+}
+.indexFinal iframe {
+  width: 400px;
+  height: 180px;
+}
+
+.tituloVideos p {
+  font-size: 25px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-left: 0px;
+  font-weight: bolder;
+}
+
+.calendarioPadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contCalendario {
+  width: 30%;
+}
+
+.calendarioTexto {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.calendarioTwitter {
+  padding-top: 50px;
+}
+
+.calendarioProx {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: bolder;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.calendarioProx h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+.calendarioProx p {
+  padding-top: 20px;
+  color: darkgray;
+  font-weight: lighter;
+}
+
+.historiaDatos {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 75px 200px 75px 250px 275px 150px 300px 275px;
+  grid-template-areas: "gridHist-1" "gridHist-2" "gridHist-3" "gridHist-4" "gridHist-5" "gridHist-6" "gridHist-7" "gridHist-8";
+  row-gap: 20px;
+  justify-items: center;
+  text-align: center;
+}
+.historiaDatos p {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.gridHist-1 {
+  grid-area: gridHist-1;
+}
+
+.gridHist-2 {
+  grid-area: gridHist-2;
+}
+
+.gridHist-3 {
+  grid-area: gridHist-3;
+}
+
+.gridHist-4 {
+  grid-area: gridHist-4;
+}
+
+.gridHist-5 {
+  grid-area: gridHist-5;
+}
+
+.gridHist-6 {
+  grid-area: gridHist-6;
+}
+
+.gridHist-7 {
+  grid-area: gridHist-7;
+}
+
+.gridHist-8 {
+  grid-area: gridHist-8;
+}
+
+.historiaTitulos {
+  font-size: 45px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.campeon {
+  width: 100%;
+  text-align: center;
+}
+.campeon h4 {
+  Font-size: 45px;
+  margin-top: 50px;
+  color: black;
+}
+.campeon img {
+  width: 200px;
+  height: 470px;
+  margin-top: 50px;
+}
+
+.reglas {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 25px;
+}
+.reglas h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 25px;
+}
+.reglas h2 {
+  font-size: 35px;
+  padding-top: 25px;
+  margin-left: 15px;
+}
+.reglas p {
+  font-size: 25;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.contactoPadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactoTitulo {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.contactoTitulo h1 {
+  font-size: 25px;
+}
+
+.contactoForm {
+  width: 400px;
+}
+
+.mb-3 {
+  color: black;
+}
+
+@media (min-width: 1000px) {
+  .navPadre {
+    justify-content: center;
+  }
+  .navbar-nav {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .slogan {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .indexFinal {
+    width: 500px;
+    height: 280px;
+  }
+  .indexFinal iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .contenido {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 400px;
+    grid-template-areas: "indGrid-1 indGrid-1" "indGrid-2 indGrid-3";
+    justify-items: center;
+    margin-top: 50px;
+  }
+  /* Historia */
+  .historiaDatos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 75px 100px 150px 150px 150px 150px;
+    grid-template-areas: "gridHist-1 gridHist-1" "gridHist-2 gridHist-2" "gridHist-3 gridHist-5" "gridHist-4 gridHist-5" "gridHist-6 gridHist-8" "gridHist-7 gridHist-8";
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .historiaImg img {
+    width: 125%;
+    height: 125%;
+  }
+}/*# sourceMappingURL=style.css.map */

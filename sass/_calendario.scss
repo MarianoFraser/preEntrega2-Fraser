@@ -1,0 +1,38 @@
+.calendarioPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    }
+.contCalendario{
+    width: 30%;
+}
+.calendarioTexto{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: bolder;
+    display: inline-block;
+    padding-top: 50px;
+}
+.calendarioTwitter{
+    padding-top:50px;
+}
+.calendarioProx{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-weight: bolder;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    p{
+        padding-top:20px;
+        color:darkgray;
+        font-weight: lighter;
+    }
+}
