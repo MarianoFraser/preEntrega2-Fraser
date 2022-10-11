@@ -23,6 +23,13 @@ header img {
 .container-fluid {
   font-size: 20px;
 }
+.container-fluid a {
+  color: white !important;
+}
+
+.nav-item a {
+  color: white !important;
+}
 
 footer {
   color: black;
@@ -248,6 +255,7 @@ footer {
   text-align: center;
   margin-top: 30px;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .contactoTitulo h1 {
   font-size: 25px;
@@ -259,6 +267,10 @@ footer {
 
 .mb-3 {
   color: black;
+}
+
+.form-label {
+  color: white;
 }
 
 @media (min-width: 1000px) {

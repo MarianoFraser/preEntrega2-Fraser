@@ -1,0 +1,50 @@
+@media(min-width:1000px){
+.navPadre{
+    justify-content: center;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.slogan{
+    flex-direction: row;
+    justify-content: center;
+}
+.indexFinal{
+    @include size (500px, 280px)
+}
+.indexFinal iframe{
+    @include size (100%, 100%)
+}
+.contenido{
+    column-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px 400px;
+    grid-template-areas:
+    "indGrid-1 indGrid-1"
+    "indGrid-2 indGrid-3"
+    ;
+    justify-items: center;
+    margin-top: 50px;
+}
+/* Historia */
+.historiaDatos{
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: 75px 100px 150px 150px 150px 150px;
+grid-template-areas:
+"gridHist-1 gridHist-1"
+"gridHist-2 gridHist-2"
+"gridHist-3 gridHist-5"
+"gridHist-4 gridHist-5"
+"gridHist-6 gridHist-8"
+"gridHist-7 gridHist-8"
+;
+row-gap: 30px;
+justify-items: center;
+align-items: center;
+text-align: center;
+}
+.historiaImg img{
+    @include size (125%, 125%)
+}
+}
