@@ -18,7 +18,7 @@
 .contenido{
     column-gap: 10px;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 50px 400px;
+    grid-template-rows: 50px 300px 300px;
     grid-template-areas:
     "indGrid-1 indGrid-1"
     "indGrid-2 indGrid-3"

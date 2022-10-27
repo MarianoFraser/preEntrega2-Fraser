@@ -13,6 +13,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  z-index: 99;
 }
 
 header img {
@@ -67,10 +68,10 @@ footer {
 
 .contenido {
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr;
   grid-template-areas: "indGrid-1" "indGrid-2" "indGrid-3";
   row-gap: 20px;
 }
@@ -96,7 +97,7 @@ footer {
   justify-content: center;
 }
 .indexFinal iframe {
-  width: 400px;
+  width: 360px;
   height: 180px;
 }
 
@@ -116,7 +117,7 @@ footer {
 }
 
 .contCalendario {
-  width: 30%;
+  width: 100%;
 }
 
 .calendarioTexto {
@@ -131,9 +132,12 @@ footer {
 
 .calendarioTwitter {
   padding-top: 50px;
+  width: 300px;
+  height: 50%;
 }
 
 .calendarioProx {
+  width: 100%;
   text-align: left;
   font-family: "Roboto", sans-serif;
   color: black;
@@ -148,7 +152,7 @@ footer {
 }
 .calendarioProx p {
   padding-top: 20px;
-  color: darkgray;
+  color: white;
   font-weight: lighter;
 }
 
@@ -297,7 +301,7 @@ footer {
     -moz-column-gap: 10px;
          column-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 400px;
+    grid-template-rows: 50px 300px 300px;
     grid-template-areas: "indGrid-1 indGrid-1" "indGrid-2 indGrid-3";
     justify-items: center;
     margin-top: 50px;

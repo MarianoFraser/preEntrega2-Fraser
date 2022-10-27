@@ -2,7 +2,10 @@
 background-color:darkblue;
 position: sticky;
 top: 0px;
+z-index: 99;
 }
-header img{
-@include size (100%, 200px)
+header{
+    img{
+        @include size (100%, 200px)
+    }
 }
