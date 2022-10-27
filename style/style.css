@@ -253,6 +253,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 60vh;
 }
 
 .contactoTitulo {
@@ -279,6 +280,8 @@ footer {
   color: white;
 }
 
+/* Tablet */
+/* Desktop */
 @media (min-width: 1000px) {
   .navPadre {
     justify-content: center;
