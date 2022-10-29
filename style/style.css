@@ -297,6 +297,11 @@ footer {
     grid-template-rows: 75px 100px 75px 125px 250px 100px 150px 200px;
   }
 }
+/* Contacto */
+.contactoPadre {
+  height: 150vh;
+}
+
 /* Desktop */
 @media (min-width: 1000px) {
   .navPadre {
@@ -341,5 +346,18 @@ footer {
   .historiaImg img {
     width: 125%;
     height: 125%;
+  }
+}
+@media (min-width: 1400px) {
+  .indexFinal {
+    width: 640px;
+    height: 320px;
+  }
+  iframe {
+    width: 640px;
+    height: 320px;
+  }
+  .contenido {
+    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
