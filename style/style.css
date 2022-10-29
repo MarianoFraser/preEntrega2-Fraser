@@ -254,7 +254,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  margin-bottom: 10px;
 }
 
 .contactoTitulo {
@@ -271,7 +271,6 @@ footer {
 
 .contactoForm {
   width: 320px;
-  margin-bottom: 20px;
 }
 
 .mb-3 {
