@@ -16,7 +16,7 @@
 }
 /* Contacto */
 .contactoPadre{
-    height: 150vh;
+    height: 80vh;
 }
 /* Desktop */
 
@@ -69,6 +69,10 @@ text-align: center;
 .historiaImg img{
     @include size (125%, 125%)
 }
+/* contacto */
+.contactoPadre{
+    height: 80vh;
+}
 }
 @media(min-width:1400px){
 .indexFinal{
@@ -81,4 +85,8 @@ text-align: center;
 .contenido{
     margin-bottom: 50px;
     }
+/* contacto */
+.contactoPadre{
+    height: 60vh;
+}
 }
